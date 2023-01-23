@@ -1,0 +1,191 @@
+body {
+	font-family: "Montserrat", sans-serif;
+}
+
+header {
+	background: url(bg10.jpg);
+}
+
+.caixa1 {
+	position: relative;
+	width: 100%;
+}
+
+.imagem-perfil{
+	width: 20%;
+	margin: 20px 0 20px 60px;
+	border: 4px solid #FFFFFF;
+	border-radius: 5px;
+}
+
+.titulo-principal {
+	position: absolute;
+	font-size: 60px;
+	font-weight: bold;
+	top: 10%;
+	right: 30%;
+	color: white;
+}
+
+.lista {
+	text-align: center;
+	position: absolute;
+	top: 35%;
+	right: 34%;
+	padding: 10px;
+}
+
+.contato-titulo {
+	font-weight: bold;
+	font-size: 25px;
+	margin: 15px 45px 15px 33px;
+	text-align: center;
+	color: white;
+}
+
+.item-lista {
+	margin: 0 0 15px 0;
+	color: white;
+}
+
+.item-lista-estrela {
+	margin: 0 0 15px 0;
+	color: white;
+}
+
+.item-lista-estrela:before {
+	content: "✭";
+}
+
+strong {
+	font-weight: bold;
+}
+
+.inicio {
+	text-align: center;
+	padding: 40px;
+	background: linear-gradient(#000034, #191970);
+	color: white;
+}
+
+.graduacao {
+	font-weight: bold;
+	font-size: 30px;
+	margin: 15px 15px 20px 15px;
+}
+
+.resumo {
+	font-weight: bold;
+	font-size: 20px;
+	margin: 15px;
+}
+
+.meio {
+	background: linear-gradient(#191970, #000034);
+}
+
+.itens {
+	text-align: center;
+}
+
+.itens li {
+	display: inline-block;
+	text-align: center;
+	width: 30%;
+	vertical-align: top;
+}
+
+.especificacoes {
+	width: 70%;
+}
+
+.especificacoes:hover {
+	width: 73%;
+}
+
+.meio-conteudo {
+	background: linear-gradient(#000034, #6495ED, #000034);
+	padding: 30px;
+}
+
+.quadro {
+	margin: 20px;
+	background: #1E90FF;
+	border-radius: 10px;
+}
+
+.titulo-quadro {
+	color: white;
+	text-align: center;
+	font-weight: bold;
+	font-size: 25px;
+	margin: 5px 0;
+	padding: 5px;
+}
+
+.mais-informacoes {
+	color: white;
+	padding: 5px 15px 15px 15px;
+}
+
+
+.mais-informacoes a {
+	text-decoration: none;
+	color: white;
+}
+
+.mais-informacoes a:hover {
+	color: #00FFFF;
+}
+
+.mais-informacoes a:active {
+	color: #00CED1;
+}
+
+footer {
+	text-align: center;
+	background: url(bg12.jpg);
+	padding: 50px 0;
+}
+
+.imagem-linkedin {
+	border-radius: 10px;
+	width: 7%;
+	margin: 20px 0;
+}
+
+@media screen and (max-width: 414px) {
+	
+	.titulo-principal {
+		font-size: 20px;
+	}
+
+	.imagem-perfil{
+		margin: 20px 0 20px 30px;
+	}
+
+	.contato-titulo {
+		font-size: 15px;
+		margin: 10px 9px 5px 0;
+	}
+
+	.item-lista, .item-lista-estrela {
+		font-size: 5px;
+		margin: 0 11px 5px 0;
+	}
+
+	.lista {
+		top: 30%;
+		right: 34%;
+		padding: 0px;
+	}
+
+	.meio-conteudo ul {
+		padding: 60px 0 60px 0;
+	}
+
+	.imagem-linkedin {
+		border-radius: 5px;
+	}
+
+}
